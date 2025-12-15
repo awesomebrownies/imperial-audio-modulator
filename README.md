@@ -25,3 +25,38 @@ Others:
 
 * CircuitPython with KMK for firmware
 * Go with go-hid for backend
+
+## Backend Setup for Linux
+
+Store the executable at /usr/local/bin/imperial-audio-modulator
+
+After acquiring the go executable, you will set up a systemd user service.
+
+```bash
+mkdir -p ~/.config/systemd/user
+nano ~/.config/systemd/user/imperial-audio-modulator.service
+```
+
+```ini
+[Unit]
+Description=Imperial Audio Modulator
+After=pipewire.service wireplumber.service
+
+[Service]
+ExecStart=/usr/local/bin/imperial-audio-modulator
+Restart=always
+Environment=XDG_RUNTIME_DIR=/run/use/%U
+Environment=DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/%U/bus
+
+[Install]
+WantedBy=default.target
+```
+
+```
+systemctl --user daemon-reexec
+systemctl --user daemon-reload
+systemctl --user enable imperial-audio-modulator
+systemctl --user start imperial-audio-modulator
+```
+
+You're all set up now!
