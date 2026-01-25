@@ -26,6 +26,21 @@ Others:
 * CircuitPython with KMK for firmware
 * Go with go-hid for backend
 
+## Compiling from Source
+
+* Clone this repository to your intended file location
+```bash
+cd Downloads
+git clone https://github.com/awesomebrownies/imperial-audio-modulator
+```
+* (Installation Step) If you don't have Go installed go ahead and do that at
+https://go.dev/doc/install
+* Use the compile command inside the backend folder
+```bash
+cd backend
+go build imperial-audio-modulator.go
+```
+
 ## Backend Setup for Linux
 
 Store the executable at /usr/local/bin/imperial-audio-modulator
