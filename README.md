@@ -6,9 +6,18 @@ The Imperial Audio Modulator routes audio channels with toggle switches and adju
   <img src="https://github.com/user-attachments/assets/33aec13f-bbc5-4705-b6f0-45871536fb3b" width="50%" />
 </p>
 
-## Inspiration
+<p>
+  <img src="https://github.com/user-attachments/assets/ab797b40-a91b-43a2-a2e5-af7b554f7805" width="50%" />
+  <a href="https://youtu.be/CjEDwnVIn9c">
+    <img src="https://img.youtube.com/vi/CjEDwnVIn9c/0.jpg" width="500">
+  </a>
+</p>
+
+## Inspiration & Lessons
 
 The idea Imperial-AM is to be an audio controller which has toggle switches for different applications. It's in the form of a tiefighter to give it more character!
+
+After tackling this project, I learned how to properly create tolerances and to always TRIPLE check measurements for each part. This was also my first routed PCB I ever created! As such, I learned all about routing, setting up key matrixes, and setting up working firmware to complete the project.
 
 ## Specifications
 
