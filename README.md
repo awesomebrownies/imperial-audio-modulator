@@ -8,8 +8,8 @@ The Imperial Audio Modulator routes audio channels with toggle switches and adju
 
 <p>
   <img src="https://github.com/user-attachments/assets/ab797b40-a91b-43a2-a2e5-af7b554f7805" width="50%" />
-  <a href="https://youtu.be/CjEDwnVIn9c">
-    <img src="https://img.youtube.com/vi/CjEDwnVIn9c/0.jpg" width="500">
+  <a href="https://youtu.be/tJvI7o09Jp0">
+    <img src="https://img.youtube.com/vi/tJvI7o09Jp0/0.jpg" width="500">
   </a>
 </p>
 
